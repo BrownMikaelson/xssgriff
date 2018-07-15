@@ -1,12 +1,4 @@
-python;)
-                          _  __ 
- __  _____ ___  __ _ _ __(_)/ _|
- \ \/ / __/ __|/ _` | '__| | |_ 
-  >  <\__ \__ \ (_| | |  | |  _|
- /_/\_\___/___/\__, |_|  |_|_|  
-               |___/            
-
-
+python;) 
 xssgriff
 Xssgriff, script para analizar vulnerabilidade em XSS.
 
