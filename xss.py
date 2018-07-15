@@ -17,7 +17,7 @@ for payload in payloads:
     xss_url = url+payload
     r = requests.get(xss_url)
     if payload.lower() in r.text.lower():
-        print("Vulneravel: " + payload)
+        print('\033[31m'+'HOOOO vulneravel'+'\033[0;0m'+ payload)
         if(payload not in vuln):
             vuln.append(payload)
     else:
