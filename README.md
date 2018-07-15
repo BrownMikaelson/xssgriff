@@ -1,5 +1,3 @@
-python;) 
-xssgriff
 Xssgriff, script para analizar vulnerabilidade em XSS.
 
 Modo de uso:
