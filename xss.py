@@ -3,6 +3,7 @@
 #https://www.linkedin.com/in/ataide-junior-050231b0/
 #https://www.facebook.com/JRPENTESTER
 #@ataidejuniior
+#https://www.openbugbounty.org/researchers/AtJunior/
 
 print "_  _ ____ ____ ____ ____ _ ____ ____ "
 print " \/  [__  [__  | __ |__/ | |___ |___   "
@@ -13,7 +14,7 @@ fname = "payloads.txt"
 with open(fname) as f:
     content = f.readlines()
 payloads = [x.strip() for x in content] 
-url = raw_input("URL: ")
+url = raw_input("URL SITE: ")
 vuln = []
 for payload in payloads:
     payload = payload
