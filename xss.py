@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 #XSS JVZIOR
+#https://www.linkedin.com/in/ataide-junior-050231b0/
+#https://www.facebook.com/JRPENTESTER
 
 print "_  _ ____ ____ ____ ____ _ ____ ____ "
 print " \/  [__  [__  | __ |__/ | |___ |___   "
