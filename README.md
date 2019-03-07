@@ -15,7 +15,3 @@ Realiza o teste!
 Obrigado
 
 Ao final, mostrando os payloads vulneraveis.
-
-https://www.facebook.com/JRPENTESTER
-https://www.linkedin.com/in/ataide-junior-050231b0/
-@atjuniior
