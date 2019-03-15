@@ -4,28 +4,46 @@
 #https://www.facebook.com/JRPENTESTER
 #@ataidejuniior
 #https://www.openbugbounty.org/researchers/AtJunior/
+# -*- coding: utf-8 -*-
 
-print "_  _ ____ ____ ____ ____ _ ____ ____ "
-print " \/  [__  [__  | __ |__/ | |___ |___   "
-print "_/\_ ___] ___] |__] |  \ | |    |     "                                   
-
+import ast
 import requests
+import urllib.parse
+import urllib.request
+import sys
+
+print ("                         _  __  __ ")
+print ("                        (_)/ _|/ _|")
+print ("__  _____ ___  __ _ _ __ _| |_| |_ ")
+print ("\ \/ / __/ __|/ _` | '__| |  _|  _|")
+print (" >  <\__ \__ | (_| | |  | | | | |  ")
+print ("/_/\_|___|___/\__, |_|  |_|_| |_|  ")
+print ("               __/ |               ")
+print ("              |___/                ")
+print ("\r")
+print ("Please using HTTP/HTTPS")
+print ("Ex: http://wwww or https://wwww")
+print ("Creator - Jvz107")
+print ("\r")
+
+##txt payloads
+
 fname = "payloads.txt"
+
 with open(fname) as f:
     content = f.readlines()
 payloads = [x.strip() for x in content] 
-url = raw_input("URL SITE: ")
+url = input('Url: ')
 vuln = []
 for payload in payloads:
     payload = payload
     xss_url = url+payload
     r = requests.get(xss_url)
     if payload.lower() in r.text.lower():
-        print('\033[31m'+'HOOOO vulneravel'+'\033[0;0m'+ payload)
+        print('Exploitable =D '+payload)
         if(payload not in vuln):
             vuln.append(payload)
     else:
-        print "Nao vulneravel =( "
-
-print "--------------------\nLista de Payloads:"
-print '\n'.join(vuln)
+        print ("No Exploitable= ")
+print ("--------------------\nLista de Payloads:")
+print ('\n'.join(vuln))
