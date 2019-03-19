@@ -23,7 +23,7 @@ print ("              |___/                ")
 print ("\r")
 print ("Please using HTTP/HTTPS")
 print ("Ex: http://wwww or https://wwww")
-print ("Creator - Ataide Junior")
+print ("Creator - Jvz107")
 print ("\r")
 
 ##txt payloads
