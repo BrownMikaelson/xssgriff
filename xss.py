@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 #XSS JVZIOR
-#https://www.linkedin.com/in/ataide-junior-050231b0/
-#https://www.facebook.com/JRPENTESTER
-#@ataidejuniior
-#https://www.openbugbounty.org/researchers/AtJunior/
+#https://www.openbugbounty.org/researchers/jvz107/
 # -*- coding: utf-8 -*-
 
 import ast
