@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-#XSS JVZIOR
-#https://www.openbugbounty.org/researchers/jvz107/
 # -*- coding: utf-8 -*-
 
 import ast
@@ -36,7 +34,7 @@ for payload in payloads:
     payload = payload
     xss_url = url+payload
     r = requests.get(xss_url)
-    if payload.lower() in r.text.lower():
+    if payload.decode('utf-8') in r.text.lower():
         print('Exploitable =D '+payload)
         if(payload not in vuln):
             vuln.append(payload)
