@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-#XSS JVZIOR
-#https://www.openbugbounty.org/researchers/jvz107/
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 #libs
 import ast
