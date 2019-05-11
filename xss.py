@@ -3,7 +3,7 @@
 #libs
 import ast
 import requests
-import parse
+import parser
 import urllib
 import requests
 import sys
